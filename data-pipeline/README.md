@@ -92,3 +92,14 @@ pip install -r duckdb-etl/requirements.txt
 
 # 3️⃣ Run the Colab notebook or scripts
 # (see duckdb-etl/brewery_pipeline.ipynb)
+
+---
+
+## ⚙️ Pipeline Scalability
+
+This project runs on a **sample (51 rows)** for clarity and speed in Colab,  
+but the ETL logic, schema design, and DQ framework are **fully scalable** to the complete **8.9K-row dataset**.  
+All joins, referential integrity, and lineage graphs are built to handle production-size data.
+
+---
+
