@@ -57,19 +57,14 @@ Automated via Python + DuckDB:
 - Exported DQ summary (`.csv`, `.xlsx`)
 - Visual DQ charts (bar plots)
 
-<p align="center">
-  <img src="duckdb-etl/images/table_counts_bar.png" width="500"><br>
-  <em>Row-count reconciliation across staging and modeled layers</em>
-</p>
+<img width="559" height="317" alt="image" src="https://github.com/user-attachments/assets/716ede96-15dc-4d22-8584-6ae1075864e1" />
 
 ---
 
 ## 📊 Sample Visualization
 
-<p align="center">
-  <img src="duckdb-etl/images/etl_sankey.png" width="700"><br>
-  <em>ETL lineage showing data flow from Silver → Gold → Factless layers</em>
-</p>
+<img width="1453" height="539" alt="image" src="https://github.com/user-attachments/assets/9ffaac03-e34c-441f-ac0e-e32a479155c8" />
+
 
 ---
 
