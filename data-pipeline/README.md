@@ -1,6 +1,6 @@
 # 🍺 Brewery Data Pipeline — End-to-End Modern ETL with DuckDB
 
-> A complete data engineering project built from scratch — from API ingestion to warehouse modeling, data quality audits, and FAANG-style lineage visualization.
+> A complete data engineering project built from scratch — from API ingestion to warehouse modeling and data quality audits.
 
 ---
 
@@ -84,7 +84,7 @@ Automated via Python + DuckDB:
 ## ⚙️ Pipeline Scalability
 
 This project runs on a **sample (51 rows)** for clarity and speed in Colab,  
-but the ETL logic, schema design, and DQ framework are **fully scalable** to the complete **8.9K-row dataset**.  
+but the ETL logic, schema design, and DQ framework are **fully scalable**. 
 All joins, referential integrity, and lineage graphs are built to handle production-size data.
 
 ---
