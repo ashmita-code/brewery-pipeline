@@ -79,6 +79,16 @@ Automated via Python + DuckDB:
 | **Audit & DQ** | DuckDB + Python (pandas & Excel export) |
 
 ---
+---
+
+## ⚙️ Pipeline Scalability
+
+This project runs on a **sample (51 rows)** for clarity and speed in Colab,  
+but the ETL logic, schema design, and DQ framework are **fully scalable** to the complete **8.9K-row dataset**.  
+All joins, referential integrity, and lineage graphs are built to handle production-size data.
+
+---
+
 
 ## ▶️ Run Locally (Colab or Desktop)
 
@@ -95,11 +105,6 @@ pip install -r duckdb-etl/requirements.txt
 
 ---
 
-## ⚙️ Pipeline Scalability
 
-This project runs on a **sample (51 rows)** for clarity and speed in Colab,  
-but the ETL logic, schema design, and DQ framework are **fully scalable** to the complete **8.9K-row dataset**.  
-All joins, referential integrity, and lineage graphs are built to handle production-size data.
 
----
 
